@@ -33,6 +33,7 @@ exports[`Footer Rendering should match to snapshot 1`] = `
             >
               <a
                 href="https://www.facebook.com/arisanguinetti"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 <i
@@ -47,6 +48,7 @@ exports[`Footer Rendering should match to snapshot 1`] = `
             >
               <a
                 href="https://twitter.com/arisanguinetti"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 <i
@@ -61,6 +63,7 @@ exports[`Footer Rendering should match to snapshot 1`] = `
             >
               <a
                 href="https://www.linkedin.com/in/arisanguinetti"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 <i
@@ -84,7 +87,9 @@ exports[`Footer Rendering should match to snapshot 1`] = `
           <p
             className="text-grey"
           >
-            © 2019. All rights reserved.
+            © 
+            2019
+            . All rights reserved.
           </p>
         </div>
       </div>

@@ -32,7 +32,8 @@ exports[`Profile Rendering should match to snapshot 1`] = `
                   Hello, My Name is Ariel.
                 </h2>
                 <p>
-                  Ariel Sanguinetti, 32 years young, born and grew up in Tres Arroyos, Buenos Aires, Argentina. Highly motivated creative developer with more than 10 years of experience.
+                  Ariel Sanguinetti, 
+                   years young, born and grew up in Tres Arroyos, Buenos Aires, Argentina. A highly motivated creative developer with more than 10 years of experience.
                 </p>
                 <span
                   className="divider"
@@ -40,7 +41,7 @@ exports[`Profile Rendering should match to snapshot 1`] = `
                 <p
                   className="text-grey"
                 >
-                  Ariel Sanguinetti has been Trusted Translations’ CTO since 2010. He is an experienced Software Engineer with over 12 years of experience in the field of Distributed Information Systems. This includes a range of IT related projects from large websites to proprietary systems that gather data from hundreds of geographically dispersed organizations. He is also respected as a reference in the Internet arena for his early involvement in some of the most important Internet projects targeting the Hispanic community.
+                  Ariel Sanguinetti has been Trusted Translations’ CTO since 2012. He is an experienced Software Engineer with over 10 years of experience in the field of Distributed Information Systems. This includes a range of IT related projects from large websites to proprietary systems that gather data from hundreds of geographically dispersed organizations. He is also respected as a reference in the Internet arena for his early involvement in some of the most important Internet projects targeting the Hispanic community.
                 </p>
                 <p
                   className="text-grey"
@@ -79,10 +80,18 @@ exports[`Profile Rendering should match to snapshot 1`] = `
                     Buenos Aires, Argentina
                   </li>
                   <li>
-                    +54 9 (2983) 418902
+                    <a
+                      href="tel:+5492983418902"
+                    >
+                      +54 9 (2983) 418902
+                    </a>
                   </li>
                   <li>
-                    hello@arielsanguinetti.com.ar
+                    <a
+                      href="mailto:hello@arielsanguinetti.com.ar"
+                    >
+                      hello@arielsanguinetti.com.ar
+                    </a>
                   </li>
                   <li>
                     <a

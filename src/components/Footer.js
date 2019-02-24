@@ -1,7 +1,9 @@
 import React, { Component } from "react";
+import moment from "moment";
 
 class Footer extends Component {
   render() {
+    const currentYear = moment().year();
     return (
       <footer className="footer">
         <div className="container">
@@ -19,6 +21,7 @@ class Footer extends Component {
                     <a
                       href="https://www.facebook.com/arisanguinetti"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <i className="fa fa-facebook" />
                     </a>
@@ -30,6 +33,7 @@ class Footer extends Component {
                     <a
                       href="https://twitter.com/arisanguinetti"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <i className="fa fa-twitter" />
                     </a>
@@ -41,6 +45,7 @@ class Footer extends Component {
                     <a
                       href="https://www.linkedin.com/in/arisanguinetti"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <i className="fa fa-linkedin" />
                     </a>
@@ -53,7 +58,9 @@ class Footer extends Component {
           <div className="row">
             <div className="col-md-12">
               <div className="copyright text-center">
-                <p className="text-grey">&copy; 2019. All rights reserved.</p>
+                <p className="text-grey">
+                  &copy; {currentYear}. All rights reserved.
+                </p>
               </div>
             </div>
           </div>

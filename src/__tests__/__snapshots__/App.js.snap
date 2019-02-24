@@ -2,9 +2,13 @@
 
 exports[`App Rendering should match to snapshot 1`] = `
 <Fragment>
-  <Hero />
+  <Hero
+    age={32}
+  />
   <Navbar />
-  <Profile />
+  <Profile
+    age={32}
+  />
   <Strengths />
   <Contact />
   <Footer />

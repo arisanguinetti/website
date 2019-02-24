@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 class Hero extends Component {
   render() {
+    const { age } = this.props;
     return (
       <header id="home" className="hero parallax-yes">
         <div id="parallax-1" className="parallax">
@@ -20,7 +21,7 @@ class Hero extends Component {
 
                 <h1 className="small">Software Ninjaneer</h1>
 
-                <p>32 years young, techy and nerd, music addict.</p>
+                <p>{age} years young, techy and nerd, music addict.</p>
 
                 <div className="page-scroll">
                   <a href="#profile" className="btn btn-lg btn-custom">

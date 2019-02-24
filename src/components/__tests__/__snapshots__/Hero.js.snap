@@ -34,7 +34,7 @@ exports[`Hero Rendering should match to snapshot 1`] = `
             Software Ninjaneer
           </h1>
           <p>
-            32 years young, techy and nerd, music addict.
+             years young, techy and nerd, music addict.
           </p>
           <div
             className="page-scroll"

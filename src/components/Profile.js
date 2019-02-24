@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 class Profile extends Component {
   render() {
+    const { age } = this.props;
     return (
       <section id="profile" className="section">
         <div className="container section-wrapper">
@@ -16,9 +17,9 @@ class Profile extends Component {
                       </h2>
 
                       <p>
-                        Ariel Sanguinetti, 32 years young, born and grew up in
-                        Tres Arroyos, Buenos Aires, Argentina. Highly motivated
-                        creative developer with more than 10 years of
+                        Ariel Sanguinetti, {age} years young, born and grew up
+                        in Tres Arroyos, Buenos Aires, Argentina. A highly
+                        motivated creative developer with more than 10 years of
                         experience.
                       </p>
 
@@ -26,8 +27,8 @@ class Profile extends Component {
 
                       <p className="text-grey">
                         Ariel Sanguinetti has been Trusted Translations’ CTO
-                        since 2010. He is an experienced Software Engineer with
-                        over 12 years of experience in the field of Distributed
+                        since 2012. He is an experienced Software Engineer with
+                        over 10 years of experience in the field of Distributed
                         Information Systems. This includes a range of IT related
                         projects from large websites to proprietary systems that
                         gather data from hundreds of geographically dispersed
@@ -70,8 +71,14 @@ class Profile extends Component {
 
                       <ul className="list-unstyled text-grey">
                         <li>Buenos Aires, Argentina</li>
-                        <li>+54 9 (2983) 418902</li>
-                        <li>hello@arielsanguinetti.com.ar</li>
+                        <li>
+                          <a href="tel:+5492983418902">+54 9 (2983) 418902</a>
+                        </li>
+                        <li>
+                          <a href="mailto:hello@arielsanguinetti.com.ar">
+                            hello@arielsanguinetti.com.ar
+                          </a>
+                        </li>
                         <li>
                           <a href="https://arielsanguinetti.com.ar">
                             https://arielsanguinetti.com.ar
