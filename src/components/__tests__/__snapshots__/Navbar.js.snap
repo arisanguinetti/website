@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar Rendering should match to snapshot 1`] = `
+<nav
+  className="navbar navbar-fixed-top center-menu"
+  id="navigation"
+  role="navigation"
+>
+  <div
+    className="container navbar-container"
+  >
+    <div
+      className="navbar-header page-scroll"
+    >
+      <button
+        className="navbar-toggle"
+        data-target=".berg-collapse"
+        data-toggle="collapse"
+        type="button"
+      >
+        <span
+          className="sr-only"
+        >
+          Toggle navigation
+        </span>
+        <span
+          className="icon-bar"
+        />
+        <span
+          className="icon-bar"
+        />
+        <span
+          className="icon-bar"
+        />
+      </button>
+      <a
+        className="navbar-brand visible-xs visible-sm"
+        href="#page-top"
+      >
+        Ari Sanguinetti
+      </a>
+    </div>
+    <div
+      className="navbar-collapse collapse berg-collapse"
+    >
+      <ul
+        className="nav navbar-nav"
+      >
+        <li
+          className="page-scroll"
+        >
+          <a
+            href="#home"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          className="page-scroll"
+        >
+          <a
+            href="#profile"
+          >
+            Profile
+          </a>
+        </li>
+        <li
+          className="page-scroll"
+        >
+          <a
+            href="#strengths"
+          >
+            Strengths
+          </a>
+        </li>
+        <li
+          className="page-scroll"
+        >
+          <a
+            href="#contact"
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+`;

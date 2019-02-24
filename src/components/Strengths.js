@@ -57,10 +57,10 @@ class Strengths extends Component {
 
                     <div className="item">
                       <div className="bar">
-                        <span className="percent">92%</span>
+                        <span className="percent">88%</span>
 
-                        <div className="item-progress" data-percent="92">
-                          <span className="title">Reliable</span>
+                        <div className="item-progress" data-percent="88">
+                          <span className="title">Comunication</span>
                         </div>
                       </div>
                     </div>
@@ -70,16 +70,6 @@ class Strengths extends Component {
                         <span className="percent">82%</span>
 
                         <div className="item-progress" data-percent="82">
-                          <span className="title">Comunication</span>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="item">
-                      <div className="bar">
-                        <span className="percent">86%</span>
-
-                        <div className="item-progress" data-percent="86">
                           <span className="title">Leadership</span>
                         </div>
                       </div>
@@ -91,6 +81,16 @@ class Strengths extends Component {
 
                         <div className="item-progress" data-percent="81">
                           <span className="title">Persuasion</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="item">
+                      <div className="bar">
+                        <span className="percent">78%</span>
+
+                        <div className="item-progress" data-percent="78">
+                          <span className="title">Ágile</span>
                         </div>
                       </div>
                     </div>

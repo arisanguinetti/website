@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Rendering should match to snapshot 1`] = `
+<Fragment>
+  <Hero />
+  <Navbar />
+  <Profile />
+  <Strengths />
+  <Contact />
+  <Footer />
+</Fragment>
+`;
