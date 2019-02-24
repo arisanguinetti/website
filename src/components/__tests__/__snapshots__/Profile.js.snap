@@ -81,17 +81,13 @@ exports[`Profile Rendering should match to snapshot 1`] = `
                   </li>
                   <li>
                     <a
-                      href="tel:+5492983418902"
-                    >
-                      +54 9 (2983) 418902
-                    </a>
+                      href="tel:undefined"
+                    />
                   </li>
                   <li>
                     <a
-                      href="mailto:hello@arielsanguinetti.com.ar"
-                    >
-                      hello@arielsanguinetti.com.ar
-                    </a>
+                      href="mailto:undefined"
+                    />
                   </li>
                   <li>
                     <a

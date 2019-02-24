@@ -72,11 +72,15 @@ class Profile extends Component {
                       <ul className="list-unstyled text-grey">
                         <li>Buenos Aires, Argentina</li>
                         <li>
-                          <a href="tel:+5492983418902">+54 9 (2983) 418902</a>
+                          <a href={"tel:" + process.env.REACT_APP_ARIEL_PHONE}>
+                            {process.env.REACT_APP_ARIEL_PHONE}
+                          </a>
                         </li>
                         <li>
-                          <a href="mailto:hello@arielsanguinetti.com.ar">
-                            hello@arielsanguinetti.com.ar
+                          <a
+                            href={"mailto:" + process.env.REACT_APP_ARIEL_EMAIL}
+                          >
+                            {process.env.REACT_APP_ARIEL_EMAIL}
                           </a>
                         </li>
                         <li>
