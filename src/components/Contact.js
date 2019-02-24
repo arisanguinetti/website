@@ -36,8 +36,8 @@ class Contact extends Component {
                   </h2>
 
                   <h4 className="text-grey">
-                    <a href="mailto:hello@arielsanguinetti.com.ar">
-                      hello@arielsanguinetti.com.ar
+                    <a href={"mailto:" + process.env.REACT_APP_ARIEL_EMAIL}>
+                      {process.env.REACT_APP_ARIEL_EMAIL}
                     </a>
                   </h4>
 

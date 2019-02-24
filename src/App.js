@@ -9,11 +9,13 @@ import {
 } from "./components";
 import moment from "moment";
 
+require("dotenv").config();
+
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      birthdate: moment("1986-06-10")
+      birthdate: moment(process.env.REACT_APP_ARIEL_BIRTHDAY)
     };
   }
   render() {
