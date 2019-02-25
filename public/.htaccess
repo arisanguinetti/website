@@ -3,7 +3,7 @@ RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,QSA,R=301]
 
-RewriteCond %{HTTP_HOST} ^(.*)\.arielsanguinetti\.com\.ar
-RewriteRule ^/(.*)$ https://arielsanguinetti.com.ar/$1 [R=301,L,NC,QSA]
+RewriteCond %{HTTP_HOST} ^(.*)\.react\.arielsanguinetti\.com\.ar
+RewriteRule ^/(.*)$ https://react.arielsanguinetti.com.ar/$1 [R=301,L,NC,QSA]
 
 RewriteRule ^v2/(.*)$ /$1 [R=301,L]
