@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact Rendering should match to snapshot 1`] = `
+<section
+  className="section"
+  id="contact"
+>
+  <div
+    className="container section-wrapper"
+  >
+    <div
+      className="section-content"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-12 text-center"
+        >
+          <h2
+            className="section-title"
+          >
+            Contact Me
+          </h2>
+          <p
+            className="section-subtitle"
+          >
+            Have a project you'd like to discuss?
+          </p>
+          <span
+            className="divider center"
+          />
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-12"
+        >
+          <div
+            className="contact-details text-center"
+          >
+            <div
+              className="speech-bubble"
+            >
+              <i
+                className="icon-Speach-Bubble11"
+              />
+              <h4
+                className="text-grey"
+              >
+                Say
+                <br />
+                Hello
+              </h4>
+            </div>
+            <h2>
+              Ariel 
+              <strong>
+                Sanguinetti
+              </strong>
+            </h2>
+            <h4
+              className="text-grey"
+            >
+              <a
+                href="mailto:john@example.com"
+              >
+                john@example.com
+              </a>
+            </h4>
+            <span
+              className="divider center"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;

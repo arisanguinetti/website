@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hero Rendering should match to snapshot 1`] = `
+<header
+  className="hero parallax-yes"
+  id="home"
+>
+  <div
+    className="parallax"
+    id="parallax-1"
+  >
+    <div
+      className="bcg skrollable skrollable-between"
+      data-anchor-target="#parallax-1"
+      data-bottom-top="background-position: 50% 100px;"
+      data-center="background-position: 50% 0px;"
+      data-top-bottom="background-position: 50% -100px;"
+    >
+      <div
+        className="hero-body"
+      >
+        <div
+          className="hero-text text-center"
+        >
+          <h1>
+            I'm Ari Sanguinetti 
+            <span
+              className="blinker"
+            />
+          </h1>
+          <h1
+            className="small"
+          >
+            Software Ninjaneer
+          </h1>
+          <p>
+             years young, techy and nerd, music addict.
+          </p>
+          <div
+            className="page-scroll"
+          >
+            <a
+              className="btn btn-lg btn-custom"
+              href="#profile"
+            >
+              Know Me Better
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+`;
