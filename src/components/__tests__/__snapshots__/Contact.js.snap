@@ -65,9 +65,9 @@ exports[`Contact Rendering should match to snapshot 1`] = `
               className="text-grey"
             >
               <a
-                href="mailto:hello@arielsanguinetti.com.ar"
+                href="mailto:john@example.com"
               >
-                hello@arielsanguinetti.com.ar
+                john@example.com
               </a>
             </h4>
             <span
